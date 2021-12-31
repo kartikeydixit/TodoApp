@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Todo List</title>
+</head>
+<body>
+    <header>
+        <h1>KD's Todo List</h1>
+    </header>
+
+    <form >
+        <input type="text" class="todo-input" placeholder="Write your task">
+        <button class="todo-button" type='submit'>
+            <i class="fas fa-plus-square"></i>
+        </button>
+    </form>
+    <div class="todo-container">
+        <ul class="todo-list">
+          <!-- We wish to achieve this structure using DOM manipulation -->
+          <!-- <div class="todo">
+              <li class='todo-item'>This</li>
+              <button class='trash-btn'>delete</button>
+              <button class="complete-btn">Checked</button>
+          </div> -->
+        </ul>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
