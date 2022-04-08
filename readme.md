@@ -8,4 +8,4 @@
 
 ### Created using Html,Css and Vanila Javascript
 
-![ScreenShot]('https://github.com/kartikeydixit/TodoApp/blob/main/todolist_1.PNG')
+![image](https://drive.google.com/uc?export=view&id=1WFnzrXG2v_EXGLZ65A8Sutcn4kfUDKfF)
